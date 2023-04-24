@@ -1,0 +1,67 @@
+h2:hover{
+    color:rgb(255, 0, 0);
+    text-shadow: 0 0 5px rgb(1, 4, 10);
+                0 0 25px rgb(84, 145, 251);
+                0 0 50px rgb(84, 145, 251);
+                0 0 100px rgb(84, 145, 251);
+}
+.tenshop{
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+    padding-top: 0%;
+}
+nav .search{
+    line-height: 30px;
+    float :right;
+    margin-right: 10px;
+}
+nav .menu ul{
+    list-style: none;
+}
+nav .menu ul li{
+    float: left;
+    list-style: 40px;
+    padding: 0 15px;
+    line-height: 30px;
+    text-align: center;
+}
+nav .menu ul li{
+    color:rgb(0, 3, 6);
+    font-size: 20px;
+    text-decoration: none;
+}
+.menu ul li:hover{
+    background-color: rgb(204, 126, 139);
+    border-radius: 5px;
+    transform: scale(0.9);
+}
+.submenu{
+        width: 250px;
+        background-color: #0babd3;
+        min-height: 80px;
+        display: none;
+        position: absolute;
+}
+.submenu li{list-style: none;}
+.submenu li a{
+    text-transform: none;
+    text-decoration: none;
+    color: snow;
+    display: block;
+    border: 1px solid #ccc;
+    line-height: 40px;
+    text-indent: 12px;
+}
+.menu li:hover .submenu{
+    display: block;
+    background-color: #0babd3;
+    color: palevioletred;
+    transform: ease-in 0.35s;
+}
+.menu li:hover .submenu{
+    display: block;
+    background-color: #0babd3;
+    color: palevioletred;
+    transform: ease-in 0.35s;
+}
